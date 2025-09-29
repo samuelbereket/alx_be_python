@@ -20,5 +20,8 @@ print(f"Subtraction of {number1} and {number2} is: {subtraction_result}")
 number1 = int(input("Enter first number: "))
 number2 = int(input("Enter second number: "))
 
-division_result = number1 / number2
-print(f"Division of {number1} and {number2} is: {division_result}")
+if number2 == 0:
+    print("Error: Division by zero is not allowed!")
+else:
+    division_result = number1 / number2
+    print(f"Division of {number1} and {number2} is: {division_result}")
