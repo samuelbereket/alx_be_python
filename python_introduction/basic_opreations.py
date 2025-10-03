@@ -17,8 +17,7 @@ print(f"Subtraction of {number1} and {number2} is: {subtraction_result}")
 
 #Division
 
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
+
 
 if number2 == 0:
     print("Error: Division by zero is not allowed!")
